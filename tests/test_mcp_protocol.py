@@ -19,7 +19,7 @@ class MCPProtocolTests(unittest.TestCase):
             )
             params = StdioServerParameters(
                 command=sys.executable,
-                args=["-m", "ict_smc_mcp.server"],
+                args=["-c", "from ict_smc_mcp.server import create_server; create_server(bridge=object()).run(transport='stdio')"],
                 env=child_env,
                 cwd=project_root,
             )
