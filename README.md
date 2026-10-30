@@ -39,7 +39,7 @@ flowchart LR
 
 ## Быстрый старт
 
-Требуется Python `>=3.12,<3.14`. Для чтения локальных котировок дополнительно нужен установленный и запущенный MetaTrader 5.
+Требуется Python `>=3.12,<3.14`. Интеграция с локальным MetaTrader 5 через extra `[mt5]` предназначена для Windows, где установлен терминал MT5. На Linux/macOS доступны Python-движок и тесты без MT5.
 
 ### Windows
 
@@ -53,7 +53,7 @@ py -3.12 -m venv .venv
 
 ```bash
 python3.12 -m venv .venv
-.venv/bin/python -m pip install -e '.[mt5,test]'
+.venv/bin/python -m pip install -e '.[test]'
 .venv/bin/python -m pytest -q
 ```
 
