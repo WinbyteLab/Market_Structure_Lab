@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="420" viewBox="0 0 1280 420" role="img" aria-labelledby="title desc">
+  <title id="title">Market Structure Lab</title>
+  <desc id="desc">A dark market research banner with a stylized price chart and structure annotations.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#08121f"/>
+      <stop offset="1" stop-color="#111e31"/>
+    </linearGradient>
+    <linearGradient id="glow" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#38e2c2" stop-opacity="0"/>
+      <stop offset="0.55" stop-color="#38e2c2" stop-opacity="0.9"/>
+      <stop offset="1" stop-color="#6f91ff" stop-opacity="0.1"/>
+    </linearGradient>
+    <pattern id="grid" width="52" height="46" patternUnits="userSpaceOnUse">
+      <path d="M52 0H0V46" fill="none" stroke="#8da7c7" stroke-opacity=".09" stroke-width="1"/>
+    </pattern>
+    <filter id="softGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="7" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect width="1280" height="420" rx="24" fill="url(#bg)"/>
+  <rect x="1" y="1" width="1278" height="418" rx="23" fill="url(#grid)" stroke="#263750"/>
+  <path d="M48 335H1232" stroke="#38e2c2" stroke-opacity=".22"/>
+  <path d="M48 335C210 310 263 323 369 272S531 240 604 250 724 194 809 211 947 176 1034 139 1150 121 1232 72" fill="none" stroke="url(#glow)" stroke-width="3" filter="url(#softGlow)"/>
+  <g fill="#38e2c2" stroke="#38e2c2" stroke-width="3">
+    <path d="M686 219V267"/><rect x="678" y="231" width="16" height="24" rx="2"/>
+    <path d="M792 180V235"/><rect x="784" y="190" width="16" height="30" rx="2"/>
+    <path d="M903 154V207"/><rect x="895" y="164" width="16" height="28" rx="2"/>
+    <path d="M1018 110V172"/><rect x="1010" y="122" width="16" height="34" rx="2"/>
+    <path d="M1131 93V147"/><rect x="1123" y="104" width="16" height="27" rx="2"/>
+  </g>
+  <g fill="#ff8d78" stroke="#ff8d78" stroke-width="3">
+    <path d="M738 198V250"/><rect x="730" y="207" width="16" height="31" rx="2"/>
+    <path d="M847 171V226"/><rect x="839" y="181" width="16" height="29" rx="2"/>
+    <path d="M960 141V193"/><rect x="952" y="151" width="16" height="28" rx="2"/>
+    <path d="M1074 105V158"/><rect x="1066" y="116" width="16" height="27" rx="2"/>
+  </g>
+  <g font-family="Segoe UI, Inter, Arial, sans-serif">
+    <text x="72" y="104" fill="#8ea3bd" font-size="15" font-weight="700" letter-spacing="4">RESEARCH · ENGINEERING · REPRODUCIBILITY</text>
+    <text x="68" y="178" fill="#f2f7ff" font-size="49" font-weight="750" letter-spacing="-.8">MARKET STRUCTURE</text>
+    <text x="70" y="234" fill="#38e2c2" font-size="49" font-weight="750" letter-spacing="-.8">LAB</text>
+    <text x="72" y="278" fill="#aebdd0" font-size="18">ICT / SMC hypotheses, made explicit and testable.</text>
+    <rect x="72" y="310" width="186" height="34" rx="17" fill="#142a38" stroke="#38e2c2" stroke-opacity=".55"/>
+    <circle cx="91" cy="327" r="4" fill="#38e2c2"/>
+    <text x="105" y="332" fill="#d7fff6" font-size="12" font-weight="700" letter-spacing="1.2">READ-ONLY RESEARCH</text>
+    <text x="1070" y="365" fill="#7890aa" font-size="12" text-anchor="end" letter-spacing="2">PYTHON  ·  MCP  ·  MT5  ·  MQL5</text>
+  </g>
+</svg>

@@ -1,0 +1,23 @@
+# Local project environment and caches
+.venv/
+.cache/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Generated binaries and local test exports stay under the project but are not source
+*.ex5
+*.ex4
+reports/tmp/
+
+# Local market data, generated outputs, and environment-specific metadata
+reports/
+data/
+src/*.egg-info/
+
+# Third-party source bundle and local research notes are not redistributed
+ict-knowledge-library-master/
+ict-knowledge-library-master.zip
+Заметки/
+Источники/
+.citations/

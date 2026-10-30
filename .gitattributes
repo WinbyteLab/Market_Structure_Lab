@@ -1,0 +1,11 @@
+# Normalize text files across Windows and Unix
+* text=auto
+*.md text eol=lf
+*.py text eol=lf
+*.json text eol=lf
+*.svg text eol=lf
+*.toml text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf
+*.mq5 text eol=lf
+*.mqh text eol=lf
